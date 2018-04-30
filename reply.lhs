@@ -7,7 +7,7 @@ the List from left to right,
 applying the Accumulator and
 the current Element of the
 List to the Function. Here
-is a very crude definition:
+is a simple definition:
 
 > foldl' :: (b -> a -> b) -> b -> [a] -> b
 > foldl' _ acc []     = acc
