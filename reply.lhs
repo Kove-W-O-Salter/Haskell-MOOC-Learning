@@ -23,6 +23,8 @@ So if we did:
 
 > foldl' (flip' (:)) [] "Hello"
 
+we would get a result of "olleH".
+
 NOTE: flip takes a binary function
 and returns that function with it's
 paramaters in the oposite order.
